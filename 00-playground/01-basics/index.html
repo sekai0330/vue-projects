@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Learning Vue</title>
+  </head>
+  <body>
+    <h1>Hello Vue :)</h1>
+    <div id="app">
+      <p>{{title}} - {{author}} - {{age}}</p>
+      <button v-on:click="age++">Increase age</button>
+      <button v-on:click="age--">Decrease age</button>
+      <div @click="title = 'Words of Radiance'">Change book title</div>
+      <div @click="changeTitle('Oathbringer')">
+        Change book title via method
+      </div>
+    </div>
+  </body>
+  <script src="https://unpkg.com/vue@3.0.2"></script>
+  <script src="app.js"></script>
+</html>
