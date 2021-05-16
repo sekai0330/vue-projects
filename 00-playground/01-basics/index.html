@@ -10,13 +10,22 @@
   <body>
     <h1>Hello Vue :)</h1>
     <div id="app">
-      <p>{{title}} - {{author}} - {{age}}</p>
+      <div v-if="showBooks">
+        <p>{{title}} - {{author}} - {{age}}</p>
+      </div>
       <button v-on:click="age++">Increase age</button>
       <button v-on:click="age--">Decrease age</button>
       <div @click="title = 'Words of Radiance'">Change book title</div>
       <div @click="changeTitle('Oathbringer')">
         Change book title via method
       </div>
+      <button @click="toggleShowBooks">
+        <span v-if="showBooks">Hide Books</span>
+        <!-- <span v-if="!showBooks">Show Books</span> -->
+        <span v-else>Show Books</span>
+      </button>
+      <!-- v-show: css display none vs v-if: remove from DOM -->
+      <div v-show="showBooks">Currently showing books</div>
     </div>
   </body>
   <script src="https://unpkg.com/vue@3.0.2"></script>
