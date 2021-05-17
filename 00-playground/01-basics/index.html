@@ -6,19 +6,76 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
     <title>Learning Vue</title>
+    <style>
+      body {
+        background-color: #eee;
+        max-width: 960px;
+        margin: 20px auto;
+      }
+      p,
+      h3,
+      ul {
+        margin: 0;
+        padding: 0;
+      }
+      li {
+        list-style-type: none;
+        background-color: #fff;
+        margin: 20px auto;
+        padding: 10px 20px;
+        border-radius: 10px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+      }
+      li.fav {
+        background-color: #ff9ed2;
+        color: #fff;
+      }
+      .box {
+        padding: 100px 0;
+        width: 400px;
+        text-align: center;
+        background-color: #ddd;
+        margin: 20px;
+        display: inline-block;
+      }
+    </style>
   </head>
   <body>
     <h1>Hello Vue :)</h1>
     <div id="app">
       <div v-if="showBooks">
-        <p>{{title}} - {{author}} - {{age}}</p>
+        <!-- <p>{{title}} - {{author}} - {{age}}</p> -->
+        <!-- <ul>
+          <li
+            v-for="book in books"
+            :class="{fav: book.isFav}"
+            @click="toggleFav(book)"
+          >
+            <img :src="book.img" :alt="book.title" />
+            <h3>{{book.title}}</h3>
+            <p>{{book.author}}</p>
+          </li>
+        </ul> -->
+        <ul>
+          <li
+            v-for="book in filteredBooks"
+            :class="{fav: book.isFav}"
+            @click="toggleFav(book)"
+          >
+            <img :src="book.img" :alt="book.title" />
+            <h3>{{book.title}}</h3>
+            <p>{{book.author}}</p>
+          </li>
+        </ul>
       </div>
       <button v-on:click="age++">Increase age</button>
       <button v-on:click="age--">Decrease age</button>
-      <div @click="title = 'Words of Radiance'">Change book title</div>
+      <!-- <div @click="title = 'Words of Radiance'">Change book title</div>
       <div @click="changeTitle('Oathbringer')">
         Change book title via method
-      </div>
+      </div> -->
       <button @click="toggleShowBooks">
         <span v-if="showBooks">Hide Books</span>
         <!-- <span v-if="!showBooks">Show Books</span> -->
@@ -26,6 +83,15 @@
       </button>
       <!-- v-show: css display none vs v-if: remove from DOM -->
       <div v-show="showBooks">Currently showing books</div>
+      <br />
+      <!-- mouse events -->
+      <div class="box" @mouseover="handleEvent($event, 5)">mouseover</div>
+      <div class="box" @mouseleave="handleEvent">mouseleave</div>
+      <div class="box" @dblclick="handleEvent">double click</div>
+      <div class="box" @mousemove="handleMousemove">postion: {{x}} - {{y}}</div>
+      <!-- binding -->
+      <!-- <a v-bind:href="url">Vue website</a> -->
+      <a :href="url">Vue website</a>
     </div>
   </body>
   <script src="https://unpkg.com/vue@3.0.2"></script>
