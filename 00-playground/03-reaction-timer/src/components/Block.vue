@@ -11,17 +11,17 @@ export default {
     };
   },
   mounted() {
-    console.log("component mounted");
+    // console.log("component mounted");
     setTimeout(() => {
       this.showBlock = true;
     }, this.delay);
   },
-  updated() {
-    console.log("component updated");
-  },
-  unmounted() {
-    console.log("component unmounted");
-  },
+  //   updated() {
+  //     console.log("component updated");
+  //   },
+  //   unmounted() {
+  //     console.log("component unmounted");
+  //   },
 };
 </script>
 
