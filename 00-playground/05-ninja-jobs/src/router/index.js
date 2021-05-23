@@ -1,6 +1,6 @@
 import { createRouter, createWebHistory } from "vue-router";
 import Home from "../views/Home.vue";
-import About from "../views/About.vue";
+// import About from "../views/About.vue";
 import NotFound from "../views/NotFound.vue";
 import Jobs from "../views/jobs/Jobs.vue";
 import JobDetails from "../views/jobs/JobDetails.vue";
@@ -11,10 +11,12 @@ const routes = [
     name: "Home",
     component: Home,
   },
+  // lazy loading
+  // for proper implementation, see: https://router.vuejs.org/guide/advanced/lazy-loading.html
   {
     path: "/about",
     name: "About",
-    component: About,
+    component: () => import("../views/About.vue"),
   },
   {
     path: "/jobs",
