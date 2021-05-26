@@ -4,6 +4,7 @@
     <div v-if="error">{{ error }}</div>
     <div v-if="posts.length"><PostList :posts="posts" /></div>
     <div v-else><Spinner /></div>
+    <!-- for an alternative, check: https://v3.vuejs.org/guide/component-dynamic-async.html#using-with-suspense -->
   </div>
 </template>
 
@@ -23,3 +24,11 @@ export default {
   },
 };
 </script>
+
+<style>
+.home {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 10px;
+}
+</style>
