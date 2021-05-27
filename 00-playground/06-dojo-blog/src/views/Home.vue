@@ -2,7 +2,10 @@
   <div class="home">
     <h1>Home</h1>
     <div v-if="error">{{ error }}</div>
-    <div v-if="posts.length"><PostList :posts="posts" /></div>
+    <div v-if="posts.length">
+      <PostList :posts="posts" />
+      <TagCloud :posts="posts" />
+    </div>
     <div v-else><Spinner /></div>
     <!-- for an alternative, check: https://v3.vuejs.org/guide/component-dynamic-async.html#using-with-suspense -->
   </div>
@@ -10,12 +13,13 @@
 
 <script>
 import PostList from "../components/PostList";
+import TagCloud from "../components/TagCloud";
 import Spinner from "../components/Spinner";
 import getPosts from "../composables/getPosts";
 
 export default {
   name: "Home",
-  components: { PostList, Spinner },
+  components: { PostList, Spinner, TagCloud },
   setup() {
     const { posts, error, load } = getPosts();
     load();
