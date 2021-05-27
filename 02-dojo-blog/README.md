@@ -1,19 +1,13 @@
-# 06-dojo-blog
+# Dojo Blog
 
-## Project setup
-```
-yarn install
-```
+X
 
-### Compiles and hot-reloads for development
-```
-yarn serve
-```
+<!-- <p align="center">
+        <img src="screenshot.png">
+</p> -->
 
-### Compiles and minifies for production
-```
-yarn build
-```
+## Features
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+- X
+
+Based on [Build Web Apps with Vue JS 3 & Firebase](https://www.udemy.com/course/build-web-apps-with-vuejs-firebase/) by Shaun Pelling - The Net Ninja (2020).

@@ -1,8 +1,9 @@
 # Vue Projects
 
-This repo is made of 3 projects:
+This repo is made of 4 projects:
 
 1. [**Project Planner**](#projectplanner): X.
+1. [**Dojo Blog**](#dojoblog): X.
 
 ## <a name="projectplanner"></a>1) Project Planner
 
@@ -15,6 +16,22 @@ X
         <img src="01-project-planner/screenshot.png">
     </a>
 </p>
+
+### Features
+
+- X
+
+## <a name="dojoblog"></a>2) Dojo Blog
+
+X
+
+[See 02-dojo-blog folder](https://github.com/solygambas/vue-projects/tree/main/02-dojo-blog)
+
+<!-- <p align="center">
+    <a href="https://github.com/solygambas/vue-projects/tree/main/02-dojo-blog">
+        <img src="02-dojo-blog/screenshot.png">
+    </a>
+</p> -->
 
 ### Features
 
