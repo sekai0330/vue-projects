@@ -13,7 +13,7 @@ const getPosts = () => {
       //   });
 
       // with json-server
-      // let res = await fetch("http://localhost:3000/posts");
+      // const res = await fetch("http://localhost:3000/posts");
       // if (!res.ok) {
       //   throw Error("No data available");
       // }
