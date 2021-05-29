@@ -20,7 +20,10 @@ const getPosts = () => {
       // posts.value = await res.json();
 
       // with firestore
-      const res = await projectFirestore.collection("posts").get();
+      const res = await projectFirestore
+        .collection("posts")
+        .orderBy("createdAt", "desc")
+        .get();
       posts.value = res.docs.map((doc) => {
         return { ...doc.data(), id: doc.id };
       });
