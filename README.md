@@ -3,7 +3,8 @@
 This repo is made of 4 projects:
 
 1. [**Project Planner**](#projectplanner): X.
-1. [**Dojo Blog**](#dojoblog): X.
+2. [**Dojo Blog**](#dojoblog): X.
+3. [**Live Chat**](#livechat): X.
 
 ## <a name="projectplanner"></a>1) Project Planner
 
@@ -32,6 +33,22 @@ X
         <img src="02-dojo-blog/screenshot.png">
     </a>
 </p>
+
+### Features
+
+- X
+
+## <a name="livechat"></a>3) Live Chat
+
+X
+
+[See 03-live-chat folder](https://github.com/solygambas/vue-projects/tree/main/03-live-chat)
+
+<!-- <p align="center">
+    <a href="https://github.com/solygambas/vue-projects/tree/main/03-live-chat">
+        <img src="03-live-chat/screenshot.png">
+    </a>
+</p> -->
 
 ### Features
 
