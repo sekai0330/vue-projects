@@ -27,11 +27,11 @@ X
 
 [See 02-dojo-blog folder](https://github.com/solygambas/vue-projects/tree/main/02-dojo-blog)
 
-<!-- <p align="center">
+<p align="center">
     <a href="https://github.com/solygambas/vue-projects/tree/main/02-dojo-blog">
         <img src="02-dojo-blog/screenshot.png">
     </a>
-</p> -->
+</p>
 
 ### Features
 
