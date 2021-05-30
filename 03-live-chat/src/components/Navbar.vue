@@ -1,7 +1,9 @@
 <template>
   <nav v-if="user">
     <div>
-      <p>Hey there {{ user.displayName }}</p>
+      <p>
+        Hey there <span class="avatar">{{ user.displayName }}</span>
+      </p>
       <p class="email">Currently logged in as {{ user.email }}</p>
     </div>
     <button @click="handleLogout">Logout</button>
@@ -43,5 +45,8 @@ nav p {
 nav p.email {
   font-size: 14px;
   color: #999;
+}
+nav p span.avatar {
+  text-transform: capitalize;
 }
 </style>
