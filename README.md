@@ -5,6 +5,7 @@ This repo is made of 4 projects:
 1. [**Project Planner**](#projectplanner): X.
 2. [**Dojo Blog**](#dojoblog): X.
 3. [**Live Chat**](#livechat): X.
+4. [**Muso Ninjas**](#musoninjas): X.
 
 ## <a name="projectplanner"></a>1) Project Planner
 
@@ -47,6 +48,22 @@ X
 <!-- <p align="center">
     <a href="https://github.com/solygambas/vue-projects/tree/main/03-live-chat">
         <img src="03-live-chat/screenshot.png">
+    </a>
+</p> -->
+
+### Features
+
+- X
+
+## <a name="musoninjas"></a>4) Muso Ninjas
+
+X
+
+[See 04-muso-ninjas folder](https://github.com/solygambas/vue-projects/tree/main/04-muso-ninjas)
+
+<!-- <p align="center">
+    <a href="https://github.com/solygambas/vue-projects/tree/main/04-muso-ninjas">
+        <img src="04-muso-ninjas/screenshot.png">
     </a>
 </p> -->
 
