@@ -45,11 +45,16 @@ X
 
 [See 03-live-chat folder](https://github.com/solygambas/vue-projects/tree/main/03-live-chat)
 
-<!-- <p align="center">
+### Demo
+
+[See Demo deployed on Firebase](https://vue-projects-54fbf.web.app/)
+(Email: demo@demo.com - Password: demouser)
+
+<p align="center">
     <a href="https://github.com/solygambas/vue-projects/tree/main/03-live-chat">
         <img src="03-live-chat/screenshot.png">
     </a>
-</p> -->
+</p>
 
 ### Features
 
