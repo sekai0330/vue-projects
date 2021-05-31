@@ -48,6 +48,7 @@ X
 ### Demo
 
 [See Demo deployed on Firebase](https://vue-projects-54fbf.web.app/)
+
 (Email: demo@demo.com - Password: demouser)
 
 <p align="center">
