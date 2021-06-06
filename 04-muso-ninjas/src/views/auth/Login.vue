@@ -13,17 +13,20 @@
 // @ means src folder
 import { ref } from "vue";
 import useLogin from "@/composables/useLogin";
+import { useRouter } from "vue-router";
 
 export default {
   setup() {
     const { error, login, isPending } = useLogin();
     const email = ref("");
     const password = ref("");
+    const router = useRouter();
 
     const handleSubmit = async () => {
       const res = await login(email.value, password.value);
       if (!error.value) {
         console.log("user logged in");
+        router.push("/");
       }
     };
 
