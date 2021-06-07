@@ -10,7 +10,10 @@
       <p class="description">{{ playlist.description }}</p>
       <button v-if="ownership" @click="handleDelete">Delete Playlist</button>
     </div>
-    <div class="song-list"><p>Song List</p></div>
+    <div class="song-list">
+      <p>Song List</p>
+      <AddSong v-if="ownership" :playlist="playlist" />
+    </div>
   </div>
 </template>
 
@@ -21,9 +24,11 @@ import useStorage from "@/composables/useStorage";
 import getDocument from "@/composables/getDocument";
 import getUser from "@/composables/getUser";
 import { useRouter } from "vue-router";
+import AddSong from "@/components/AddSong";
 
 export default {
   props: ["id"],
+  components: { AddSong },
   setup(props) {
     const { error, document: playlist } = getDocument("playlists", props.id);
     const { user } = getUser();
@@ -51,9 +56,15 @@ export default {
 <style>
 .playlist-details {
   display: grid;
-  grid-template-columns: 1fr 2fr;
+  grid-template-columns: 1fr;
   gap: 80px;
 }
+@media (min-width: 768px) {
+  .playlist-details {
+    grid-template-columns: 1fr 2fr;
+  }
+}
+
 .cover {
   overflow: hidden;
   border-radius: 20px;

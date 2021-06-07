@@ -51,6 +51,7 @@ export default {
 }
 nav {
   display: flex;
+  flex-direction: column;
   align-items: center;
   max-width: 1200px;
   margin: 0 auto;
@@ -59,15 +60,25 @@ nav img {
   max-width: 60px;
   max-height: 60px;
 }
-nav h1 {
-  margin-left: 20px;
-}
-nav .links {
-  margin-left: auto;
-}
 nav .links a,
 button {
-  margin-left: 16px;
   font-size: 14px;
+}
+
+@media (min-width: 500px) {
+  nav {
+    flex-direction: row;
+  }
+
+  nav h1 {
+    margin-left: 20px;
+  }
+  nav .links {
+    margin-left: auto;
+  }
+  nav .links a,
+  button {
+    margin-left: 16px;
+  }
 }
 </style>
