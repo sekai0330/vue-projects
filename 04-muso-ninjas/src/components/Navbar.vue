@@ -8,6 +8,9 @@
           <router-link :to="{ name: 'CreatePlaylist' }"
             >Create Playlist</router-link
           >
+          <router-link :to="{ name: 'UserPlaylists' }"
+            >My Playlists</router-link
+          >
           <button @click="handleLogout">Log out</button>
         </div>
         <div v-else>
@@ -63,9 +66,10 @@ nav img {
 nav .links a,
 button {
   font-size: 14px;
+  margin: 8px;
 }
 
-@media (min-width: 500px) {
+@media (min-width: 768px) {
   nav {
     flex-direction: row;
   }
@@ -78,6 +82,7 @@ button {
   }
   nav .links a,
   button {
+    margin: 0;
     margin-left: 16px;
   }
 }

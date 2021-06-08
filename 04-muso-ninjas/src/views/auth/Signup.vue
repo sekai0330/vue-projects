@@ -27,7 +27,7 @@ export default {
       const res = await signup(email.value, password.value, displayName.value);
       if (!error.value) {
         console.log("user registered");
-        router.push("/");
+        router.push({ name: "CreatePlaylist" });
       }
     };
 
