@@ -11,6 +11,7 @@
           <router-link :to="{ name: 'UserPlaylists' }"
             >My Playlists</router-link
           >
+          <span>Hi, {{ user.displayName }}</span>
           <button @click="handleLogout">Log out</button>
         </div>
         <div v-else>
@@ -63,8 +64,14 @@ nav img {
   max-width: 60px;
   max-height: 60px;
 }
+span {
+  display: inline-block;
+  border-left: 1px solid #eee;
+  padding-left: 8px;
+}
 nav .links a,
-button {
+button,
+span {
   font-size: 14px;
   margin: 8px;
 }
@@ -80,8 +87,12 @@ button {
   nav .links {
     margin-left: auto;
   }
+  span {
+    padding-left: 16px;
+  }
   nav .links a,
-  button {
+  button,
+  span {
     margin: 0;
     margin-left: 16px;
   }
