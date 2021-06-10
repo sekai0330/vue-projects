@@ -1,7 +1,7 @@
 <template>
   <div class="user-playlists">
     <h2>My Playlists</h2>
-    <div v-if="playlists">
+    <div v-if="playlists" class="playlists">
       <ListView :playlists="playlists" />
     </div>
     <router-link :to="{ name: 'CreatePlaylist' }" class="btn"
@@ -30,4 +30,8 @@ export default {
 };
 </script>
 
-<style></style>
+<style scoped>
+.playlists {
+  margin-bottom: 1rem;
+}
+</style>

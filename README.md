@@ -67,11 +67,17 @@ X
 
 [See 04-muso-ninjas folder](https://github.com/solygambas/vue-projects/tree/main/04-muso-ninjas)
 
-<!-- <p align="center">
+### Demo
+
+[See Demo deployed on Firebase](https://vue-muso-ninjas.web.app/)
+
+(Email: demo@demo.com - Password: demouser)
+
+<p align="center">
     <a href="https://github.com/solygambas/vue-projects/tree/main/04-muso-ninjas">
         <img src="04-muso-ninjas/screenshot.png">
     </a>
-</p> -->
+</p>
 
 ### Features
 

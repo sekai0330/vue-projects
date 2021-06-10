@@ -1,7 +1,9 @@
 <template>
   <div class="navbar">
     <nav>
-      <img src="@/assets/ninja.png" alt="Muso Ninjas" />
+      <router-link :to="{ name: 'Home' }"
+        ><img src="@/assets/ninja.png" alt="Muso Ninjas"
+      /></router-link>
       <h1><router-link :to="{ name: 'Home' }">Muso Ninjas</router-link></h1>
       <div class="links">
         <div v-if="user">
@@ -68,6 +70,7 @@ span {
   display: inline-block;
   border-left: 1px solid #eee;
   padding-left: 8px;
+  text-transform: capitalize;
 }
 nav .links a,
 button,
