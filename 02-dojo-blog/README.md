@@ -1,6 +1,6 @@
 # Dojo Blog
 
-X
+A blog to learn the Composition API, using Vue Router and Firestore.
 
 <p align="center">
         <img src="screenshot.png">

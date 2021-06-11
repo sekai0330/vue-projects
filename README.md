@@ -2,14 +2,14 @@
 
 This repo is made of 4 projects:
 
-1. [**Project Planner**](#projectplanner): X.
-2. [**Dojo Blog**](#dojoblog): X.
-3. [**Live Chat**](#livechat): X.
-4. [**Muso Ninjas**](#musoninjas): X.
+1. [**Project Planner**](#projectplanner): A simple project tracker to understand Vue basics.
+2. [**Dojo Blog**](#dojoblog): A blog to learn the Composition API, using Vue Router and Firestore.
+3. [**Live Chat**](#livechat): A real-time chatroom working with Firebase Authentication.
+4. [**Muso Ninjas**](#musoninjas): A music playlist website using Firebase Storage.
 
 ## <a name="projectplanner"></a>1) Project Planner
 
-X
+A simple project tracker to understand Vue basics.
 
 [See 01-project-planner folder](https://github.com/solygambas/vue-projects/tree/main/01-project-planner)
 
@@ -25,7 +25,7 @@ X
 
 ## <a name="dojoblog"></a>2) Dojo Blog
 
-X
+A blog to learn the Composition API, using Vue Router and Firestore.
 
 [See 02-dojo-blog folder](https://github.com/solygambas/vue-projects/tree/main/02-dojo-blog)
 
@@ -41,7 +41,7 @@ X
 
 ## <a name="livechat"></a>3) Live Chat
 
-X
+A real-time chatroom working with Firebase Authentication.
 
 [See 03-live-chat folder](https://github.com/solygambas/vue-projects/tree/main/03-live-chat)
 
@@ -63,7 +63,7 @@ X
 
 ## <a name="musoninjas"></a>4) Muso Ninjas
 
-X
+A music playlist website using Firebase Storage.
 
 [See 04-muso-ninjas folder](https://github.com/solygambas/vue-projects/tree/main/04-muso-ninjas)
 

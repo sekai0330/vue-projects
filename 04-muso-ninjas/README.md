@@ -1,6 +1,6 @@
 # Muso Ninjas
 
-X
+A music playlist website using Firebase Storage.
 
 ## Demo
 

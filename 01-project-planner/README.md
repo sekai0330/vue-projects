@@ -1,6 +1,6 @@
 # Project Planner
 
-X
+A simple project tracker to understand Vue basics.
 
 <p align="center">
         <img src="screenshot.png">

@@ -1,6 +1,6 @@
 # Live Chat
 
-X
+A real-time chatroom working with Firebase Authentication.
 
 ## Demo
 
