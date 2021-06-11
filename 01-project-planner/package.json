@@ -1,7 +1,16 @@
 {
   "name": "01-project-planner",
   "version": "0.1.0",
-  "private": true,
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/solygambas/vue-projects.git"
+  },
+  "author": "solygambas",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/solygambas/vue-projects/issues"
+  },
+  "homepage": "https://github.com/solygambas/vue-projects#readme",
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
