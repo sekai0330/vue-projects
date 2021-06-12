@@ -1,3 +1,3 @@
 # Animated To-do List
 
-Based on [Vue 3 Animations Tutorial](https://www.youtube.com/watch?v=RIApQjn9fvw&list=PL4cUxeGkcC9ghm7-iTfS9n468Kp7l9Ipu) by Shaun Pelling - The Net Ninja (2021).
+Based on [Vue 3 Animations Tutorial](https://www.youtube.com/playlist?list=PL4cUxeGkcC9ghm7-iTfS9n468Kp7l9Ipu) by Shaun Pelling - The Net Ninja (2021).
