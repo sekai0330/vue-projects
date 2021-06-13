@@ -14,6 +14,15 @@ A real-time chatroom working with Firebase Authentication.
 
 ## Features
 
-- X
+- setting up Firebase Authentication.
+- handling signup and login forms with composables.
+- managing context, errors and emitting events.
+- getting the current user and logging users out.
+- adding route guards.
+- waiting for Firebase Authentication to initialize.
+- adding new messages to Firestore.
+- using a real-time Firestore listener to handle messages.
+- unsubscribing from real-time listeners to avoid unnecessary re-renders.
+- formatting dates in the chat window with date-fns.
 
 Based on [Build Web Apps with Vue JS 3 & Firebase](https://www.udemy.com/course/build-web-apps-with-vuejs-firebase/) by Shaun Pelling - The Net Ninja (2020).

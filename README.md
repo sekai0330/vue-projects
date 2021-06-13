@@ -52,7 +52,7 @@ A blog to learn the Composition API, using Vue Router and Firestore.
 - fetching a collection of posts and single posts.
 - adding and deleting blog posts.
 - using timestamps and ordering posts.
-- understanding real-time listeners in Firebase.
+- understanding real-time listeners in Firestore.
 
 ## <a name="livechat"></a>3) Live Chat
 
@@ -74,7 +74,16 @@ A real-time chatroom working with Firebase Authentication.
 
 ### Features
 
-- X
+- setting up Firebase Authentication.
+- handling signup and login forms with composables.
+- managing context, errors and emitting events.
+- getting the current user and logging users out.
+- adding route guards.
+- waiting for Firebase Authentication to initialize.
+- adding new messages to Firestore.
+- using a real-time Firestore listener to handle messages.
+- unsubscribing from real-time listeners to avoid unnecessary re-renders.
+- formatting dates in the chat window with date-fns.
 
 ## <a name="musoninjas"></a>4) Muso Ninjas
 

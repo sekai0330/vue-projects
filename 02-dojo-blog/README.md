@@ -19,6 +19,6 @@ A blog to learn the Composition API, using Vue Router and Firestore.
 - fetching a collection of posts and single posts.
 - adding and deleting blog posts.
 - using timestamps and ordering posts.
-- understanding real-time listeners in Firebase.
+- understanding real-time listeners in Firestore.
 
 Based on [Build Web Apps with Vue JS 3 & Firebase](https://www.udemy.com/course/build-web-apps-with-vuejs-firebase/) by Shaun Pelling - The Net Ninja (2020).
