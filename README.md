@@ -84,6 +84,8 @@ A real-time chatroom working with Firebase Authentication.
 - using a real-time Firestore listener to handle messages.
 - unsubscribing from real-time listeners to avoid unnecessary re-renders.
 - formatting dates in the chat window with date-fns.
+- building and deploying the app with Firebase CLI.
+- adding Firestore security rules to require authentication and locking the API to its domain.
 
 ## <a name="musoninjas"></a>4) Muso Ninjas
 
