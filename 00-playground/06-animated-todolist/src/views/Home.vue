@@ -5,7 +5,7 @@
     <!-- <transition name="fade">
       <div v-if="showP">hello, ninjas</div>
     </transition> -->
-    <button @click="showP = !showP">Toggle</button>
+    <!-- <button @click="showP = !showP">Toggle</button> -->
   </div>
 </template>
 
@@ -52,7 +52,7 @@ export default {
   transition: all 2s ease;
 } */
 
-.toast-enter-from {
+/* .toast-enter-from {
   opacity: 0;
   transform: translateY(-60px);
 }
@@ -73,5 +73,35 @@ export default {
 }
 .toast-leave-active {
   transition: all 0.3s ease;
+} */
+
+.toast-enter-active {
+  animation: wobble 0.5s ease;
+}
+
+@keyframes wobble {
+  0% {
+    transform: translateY(-60px);
+    opacity: 0;
+  }
+  50% {
+    transform: translateY(0px);
+    opacity: 1;
+  }
+  60% {
+    transform: translateX(8px);
+  }
+  70% {
+    transform: translateX(-8px);
+  }
+  80% {
+    transform: translateX(4px);
+  }
+  90% {
+    transform: translateX(-4px);
+  }
+  100% {
+    transform: translateX(0);
+  }
 }
 </style>
