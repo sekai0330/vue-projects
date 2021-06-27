@@ -2,6 +2,10 @@
 
 A small job board using Vue 3 with TypeScript.
 
+<p align="center">
+        <img src="screenshot.png">
+</p>
+
 ## Vetur
 
 Make sure to install [Vetur](https://marketplace.visualstudio.com/items?itemName=octref.vetur) in VS Code.
