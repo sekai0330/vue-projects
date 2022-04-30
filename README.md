@@ -1,11 +1,13 @@
 # Vue Projects
 
-This repo is made of 4 projects:
+4 small Vue projects using Firebase.
 
-1. [**Project Planner**](#projectplanner): A simple project tracker to understand Vue basics.
-2. [**Dojo Blog**](#dojoblog): A blog to learn the Composition API, using Vue Router and Firestore.
-3. [**Live Chat**](#livechat): A real-time chatroom working with Firebase Authentication.
-4. [**Muso Ninjas**](#musoninjas): A music playlist website using Firebase Storage.
+| #   | Project                           | Description                                           |
+| --- | --------------------------------- | ----------------------------------------------------- |
+| 01  | [**Project Planner**](#projectplanner) | A simple project tracker to understand Vue basics.               |
+| 02  | [**Dojo Blog**](#dojoblog)        | A blog to learn the Composition API, using Vue Router and Firestore.           |
+| 03  | [**Live Chat**](#livechat)     | A real-time chatroom working with Firebase Authentication.                                 |
+| 04  | [**Muso Ninjas**](#musoninjas)    | A music playlist website using Firebase Storage.                     |
 
 ## <a name="projectplanner"></a>1) Project Planner
 
