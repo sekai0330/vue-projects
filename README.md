@@ -2,21 +2,21 @@
 
 4 small Vue projects using Firebase.
 
-| #   | Project                           | Description                                           |
-| --- | --------------------------------- | ----------------------------------------------------- |
-| 01  | [**Project Planner**](#projectplanner) | A simple project tracker to understand Vue basics.               |
-| 02  | [**Dojo Blog**](#dojoblog)        | A blog to learn the Composition API, using Vue Router and Firestore.           |
-| 03  | [**Live Chat**](#livechat)     | A real-time chatroom working with Firebase Authentication.                                 |
-| 04  | [**Muso Ninjas**](#musoninjas)    | A music playlist website using Firebase Storage.                     |
+| #   | Project                                | Description                                                          |
+| --- | -------------------------------------- | -------------------------------------------------------------------- |
+| 01  | [**Project Planner**](#projectplanner) | A simple project tracker to understand Vue basics.                   |
+| 02  | [**Dojo Blog**](#dojoblog)             | A blog to learn the Composition API, using Vue Router and Firestore. |
+| 03  | [**Live Chat**](#livechat)             | A real-time chatroom working with Firebase Authentication.           |
+| 04  | [**Muso Ninjas**](#musoninjas)         | A music playlist website using Firebase Storage.                     |
 
 ## <a name="projectplanner"></a>1) Project Planner
 
 A simple project tracker to understand Vue basics.
 
-[See 01-project-planner folder](https://github.com/solygambas/vue-projects/tree/main/01-project-planner)
+[See 01-project-planner folder](01-project-planner)
 
 <p align="center">
-    <a href="https://github.com/solygambas/vue-projects/tree/main/01-project-planner">
+    <a href="01-project-planner">
         <img src="01-project-planner/screenshot.png">
     </a>
 </p>
@@ -33,10 +33,10 @@ A simple project tracker to understand Vue basics.
 
 A blog to learn the Composition API, using Vue Router and Firestore.
 
-[See 02-dojo-blog folder](https://github.com/solygambas/vue-projects/tree/main/02-dojo-blog)
+[See 02-dojo-blog folder](02-dojo-blog)
 
 <p align="center">
-    <a href="https://github.com/solygambas/vue-projects/tree/main/02-dojo-blog">
+    <a href="02-dojo-blog">
         <img src="02-dojo-blog/screenshot.png">
     </a>
 </p>
@@ -60,7 +60,7 @@ A blog to learn the Composition API, using Vue Router and Firestore.
 
 A real-time chatroom working with Firebase Authentication.
 
-[See 03-live-chat folder](https://github.com/solygambas/vue-projects/tree/main/03-live-chat)
+[See 03-live-chat folder](03-live-chat)
 
 ### Demo
 
@@ -69,7 +69,7 @@ A real-time chatroom working with Firebase Authentication.
 (Email: demo@demo.com - Password: demouser)
 
 <p align="center">
-    <a href="https://github.com/solygambas/vue-projects/tree/main/03-live-chat">
+    <a href="03-live-chat">
         <img src="03-live-chat/screenshot.png">
     </a>
 </p>
@@ -93,7 +93,7 @@ A real-time chatroom working with Firebase Authentication.
 
 A music playlist website using Firebase Storage.
 
-[See 04-muso-ninjas folder](https://github.com/solygambas/vue-projects/tree/main/04-muso-ninjas)
+[See 04-muso-ninjas folder](04-muso-ninjas)
 
 ### Demo
 
@@ -102,7 +102,7 @@ A music playlist website using Firebase Storage.
 (Email: demo@demo.com - Password: demouser)
 
 <p align="center">
-    <a href="https://github.com/solygambas/vue-projects/tree/main/04-muso-ninjas">
+    <a href="04-muso-ninjas">
         <img src="04-muso-ninjas/screenshot.png">
     </a>
 </p>
